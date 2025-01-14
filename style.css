@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8em;
+    border-bottom: 1px solid rgb(193, 193, 193);
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+img.logo {
+    width: 20em;
+    height: 2em;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a.products {
+    background-color: rgb(237, 237, 237);
+    padding: 0.2em;
+    border-radius: 0.3em;
+}
+
+div.right-header {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+}
+
+button.sign {
+    background-color: #D9D9D9;
+    border: 1px solid rgb(151, 151, 151);
+    padding: 0.3em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.sign:hover {
+    background-color: #bababa;
+}
+
+button.register {
+    background-color: black;
+    color: white;
+    padding: 0.3em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.register:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+div.buttons {
+    display: flex;
+    gap: 1em;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 3em;
+    width: 4em;
+    position: fixed;
+    left: 0;
+    background-color: white;
+}
+
+div.top-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+}
+
+div.bottom-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.1em;
+    align-items: center;
+    text-align: center;
+}
+
+i {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+i.fa-envelope {
+    width: 2em;
+    height: 2em;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+i.fa-pen {
+    width: 2em;
+    height: 2em;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+div.nav-box {
+    width: 5em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+div.nav-box:hover {
+    background-color: rgb(236, 236, 236);
+    border-right: 1px solid black;
+}
+
+/* Main */
+
+main {
+    max-width: 75em;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+input.search {
+    width: 20em;
+    height: 3em;
+    padding: 1em;
+    border-radius: 1em;
+    border: none;
+    background-color: rgb(232, 232, 232);
+}
+
+div.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.monthly {
+    background-color: rgb(232, 232, 232);
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+button.yearly {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+img.t-shirt {
+   width: 10em;
+   height: 12em;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.products {
+    display: flex;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+div.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 20em;
+    height: 22em;
+    padding: 5em;
+    cursor: pointer;
+}
+
+p.title {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+p.cost {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+button.buy {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+img.gabbana {
+    width: 20em;
+    height: 22em;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+img.gabbana:hover {
+    opacity: 1;
+}
